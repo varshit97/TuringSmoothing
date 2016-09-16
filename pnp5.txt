@@ -1,0 +1,8 @@
+• Words vs POS Tags is an ambiguous relationship. The word ’run’ is a noun/verb depending on the context.
+
+– In naive bayes, the prior for the class is unconditional : P (C). But suppose this depends on
+something else: In this case, the probability that a tag is ’verb’ depends on the previous tag:
+If it is a determiner it is likely to be a noun; if it is a noun/adverb; it is a verb. How can we
+incorporate this into the prior ?
+
+Can we use naive bayes to classify words by their part-of-speech? If so, How?
